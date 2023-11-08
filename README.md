@@ -1,6 +1,7 @@
 # EventMaster
 
 ### Please notice that this repository is the back end rep, you will need to deploy this project in order to run the front end. 
+### We used PayPal-Node-SDK to implement this back end: https://github.com/paypal/PayPal-Node-SDK. However, This SDK is deprecated. You can continue to use it, but no new features or support requests will be accepted. Please refer to the original github for alternatives. 
 ### Url for frontend repository: https://github.com/ceciliawzx/fitchCodeathon
 ### Please also notice that we used AWS Amplify to deploy the back end code, you will need to follow other deployment instructions if you would like to use your own servers. 
 
@@ -51,5 +52,5 @@ amplify push
 #
 ## PS
 #### 1. Please notice that we didn't have any experience with Amplify before this event, so the back-end code in this repository would definitely need improvements. 
-#### 2. Only files inside ./amplify would be deployed to amplify. The app.js in the root path is for test. 
+#### 2. Only files inside ./amplify would be deployed to amplify. The app.js in the root path is used for local tests. 
 #### 3. Please notice that we will delete all endpoints and information used in this repository in several days. 
