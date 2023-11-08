@@ -1,0 +1,43 @@
+{
+  "api": {
+    "fitchCodeathon": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "handlePayPal"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "handlePayPal": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_handlePayPal_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handlePayPal"
+        }
+      ]
+    },
+    "AMPLIFY_function_handlePayPal_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handlePayPal"
+        }
+      ]
+    }
+  }
+}

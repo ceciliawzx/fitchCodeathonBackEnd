@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-paypalbe-dev-224630-authRole",
+      "UnauthRoleArn": "arn:aws:iam::100272986547:role/amplify-paypalbe-dev-224630-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::100272986547:role/amplify-paypalbe-dev-224630-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-paypalbe-dev-224630-deployment",
+      "UnauthRoleName": "amplify-paypalbe-dev-224630-unauthRole",
+      "StackName": "amplify-paypalbe-dev-224630",
+      "StackId": "arn:aws:cloudformation:eu-west-2:100272986547:stack/amplify-paypalbe-dev-224630/7f217a30-7dbf-11ee-94ad-0a92fd68e3b0",
+      "AmplifyAppId": "dnfpslph5rvp9"
+    },
+    "categories": {
+      "function": {
+        "handlePayPal": {
+          "deploymentBucketName": "amplify-paypalbe-dev-224630-deployment",
+          "s3Key": "amplify-builds/handlePayPal-325879754231737a7642-build.zip"
+        }
+      },
+      "api": {
+        "fitchCodeathon": {}
+      }
+    }
+  }
+}

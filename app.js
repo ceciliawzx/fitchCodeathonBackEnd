@@ -7,10 +7,14 @@ const { render } = require('ejs');
 paypal.configure({
   mode: 'sandbox', //sandbox or live
   client_id:
-    'AY1zn0okbDaWTyZEIt9kJbesEFo_5OalLUA6UK0gNIBpaerZLWeM0jx06j_L0uY1OTRqr18yfvTT4cvA',
+    'TEST_CLIENT_ID',
   client_secret:
-    'EEmpwCAwAknUwD8i86m9iWC87COqWhCBF2YXPd8c2fdSPcWCYktYLQVjvXD7rmdEOv_u9rG0Wy6YW6vX',
+    'TEST_CLIENT_SECRET',
 });
+
+// mode: 'sandbox', //sandbox or live
+// client_id: process.env.PAYPAL_CLIENT_ID,
+// client_secret: process.env.PAYPAL_CLIENT_SECRET,
 
 const app = express();
 

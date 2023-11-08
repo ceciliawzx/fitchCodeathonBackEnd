@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/paypal": {
+      "name": "/paypal",
+      "lambdaFunction": "handlePayPal",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
